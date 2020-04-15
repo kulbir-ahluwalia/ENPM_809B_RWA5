@@ -35,5 +35,6 @@ roslaunch ur10_moveit_config move_group.launch arm_namespace:=/ariac/arm2
 
 4. In terminal 4, to start the node, do:-
 ```
+source ~/catkin_ws/devel/setup.bash
 rosrun group4_rwa5 main_node
 ```
